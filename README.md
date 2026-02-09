@@ -43,12 +43,12 @@ The project focuses on API integration, data visualization, and frontend interac
 
 ---
 
-⚠️ CORS Requirement (Important)
+**⚠️ CORS Requirement (Important)**
 
 This project fetches real-time data from LeetCode’s GraphQL API, which enforces strict CORS (Cross-Origin Resource Sharing) rules.
 To avoid CORS-related errors while running this project locally or on static hosting, a temporary proxy server is required.
 
-🔹 Before Running the Project
+**🔹 Before Running the Project**
 
 You must request access to the CORS Anywhere demo server by visiting the following link once in your browser:
 
@@ -56,7 +56,7 @@ You must request access to the CORS Anywhere demo server by visiting the followi
 
 After clicking “Request temporary access”, refresh the LeetMetric application and search for a username again.
 
-🔹 Why This Is Needed
+**🔹 Why This Is Needed**
 
 LeetCode blocks direct client-side requests
 
